@@ -1,0 +1,16 @@
+PODS:
+  - skiatext (0.0.1)
+
+DEPENDENCIES:
+  - skiatext (from `../../../`)
+
+EXTERNAL SOURCES:
+  skiatext:
+    :path: "../../../"
+
+SPEC CHECKSUMS:
+  skiatext: cc8e74832b384c9bb26c283e5a5705dd72964f6f
+
+PODFILE CHECKSUM: ffb7297e9ef11672d534e684dbee681ef98921d5
+
+COCOAPODS: 1.6.1

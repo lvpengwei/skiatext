@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4257D113164EDF05F12BADC4 /* libPods-SkiaTextDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F66D706AD813AE96B3B1A8 /* libPods-SkiaTextDemo.a */; };
+		E66617DB2290FBA500EAFF6B /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66617DA2290FBA400EAFF6B /* GLKit.framework */; };
+		E66617E12291016300EAFF6B /* SkiaLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = E66617E02291016300EAFF6B /* SkiaLayer.mm */; };
+		E6DFCAC622905928005EA655 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DFCAC522905928005EA655 /* AppDelegate.m */; };
+		E6DFCAC922905928005EA655 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DFCAC822905928005EA655 /* ViewController.m */; };
+		E6DFCACC22905928005EA655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6DFCACA22905928005EA655 /* Main.storyboard */; };
+		E6DFCACE2290592A005EA655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6DFCACD2290592A005EA655 /* Assets.xcassets */; };
+		E6DFCAD12290592A005EA655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6DFCACF2290592A005EA655 /* LaunchScreen.storyboard */; };
+		E6DFCAD42290592A005EA655 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DFCAD32290592A005EA655 /* main.m */; };
+		E6DFCADD22905A6B005EA655 /* SkiaView.mm in Sources */ = {isa = PBXBuildFile; fileRef = E6DFCADC22905A6B005EA655 /* SkiaView.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		063FF9B3F6FDDDBD62760BD3 /* Pods-SkiaTextDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkiaTextDemo.debug.xcconfig"; path = "Target Support Files/Pods-SkiaTextDemo/Pods-SkiaTextDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		63F66D706AD813AE96B3B1A8 /* libPods-SkiaTextDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkiaTextDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97FEA1D8250B06C5C6124484 /* Pods-SkiaTextDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkiaTextDemo.release.xcconfig"; path = "Target Support Files/Pods-SkiaTextDemo/Pods-SkiaTextDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E66617DA2290FBA400EAFF6B /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		E66617DF2291016300EAFF6B /* SkiaLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkiaLayer.h; sourceTree = "<group>"; };
+		E66617E02291016300EAFF6B /* SkiaLayer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SkiaLayer.mm; sourceTree = "<group>"; };
+		E6DFCAC122905928005EA655 /* SkiaTextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkiaTextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6DFCAC422905928005EA655 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6DFCAC522905928005EA655 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6DFCAC722905928005EA655 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E6DFCAC822905928005EA655 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E6DFCACB22905928005EA655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6DFCACD2290592A005EA655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6DFCAD02290592A005EA655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6DFCAD22290592A005EA655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6DFCAD32290592A005EA655 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6DFCADB22905A6B005EA655 /* SkiaView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkiaView.h; sourceTree = "<group>"; };
+		E6DFCADC22905A6B005EA655 /* SkiaView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SkiaView.mm; sourceTree = "<group>"; };
+		E6DFCADE22905BB5005EA655 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6DFCABE22905928005EA655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E66617DB2290FBA500EAFF6B /* GLKit.framework in Frameworks */,
+				4257D113164EDF05F12BADC4 /* libPods-SkiaTextDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5230129E42F1D62E0AAF65DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				063FF9B3F6FDDDBD62760BD3 /* Pods-SkiaTextDemo.debug.xcconfig */,
+				97FEA1D8250B06C5C6124484 /* Pods-SkiaTextDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		823A884A6A5F43D79B91984C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E66617DA2290FBA400EAFF6B /* GLKit.framework */,
+				E6DFCADE22905BB5005EA655 /* libc++.tbd */,
+				63F66D706AD813AE96B3B1A8 /* libPods-SkiaTextDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6DFCAB822905928005EA655 = {
+			isa = PBXGroup;
+			children = (
+				E6DFCAC322905928005EA655 /* SkiaTextDemo */,
+				E6DFCAC222905928005EA655 /* Products */,
+				5230129E42F1D62E0AAF65DF /* Pods */,
+				823A884A6A5F43D79B91984C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E6DFCAC222905928005EA655 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6DFCAC122905928005EA655 /* SkiaTextDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6DFCAC322905928005EA655 /* SkiaTextDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E6DFCADA22905A60005EA655 /* Classes */,
+				E6DFCAC422905928005EA655 /* AppDelegate.h */,
+				E6DFCAC522905928005EA655 /* AppDelegate.m */,
+				E6DFCAC722905928005EA655 /* ViewController.h */,
+				E6DFCAC822905928005EA655 /* ViewController.m */,
+				E6DFCACA22905928005EA655 /* Main.storyboard */,
+				E6DFCACD2290592A005EA655 /* Assets.xcassets */,
+				E6DFCACF2290592A005EA655 /* LaunchScreen.storyboard */,
+				E6DFCAD22290592A005EA655 /* Info.plist */,
+				E6DFCAD32290592A005EA655 /* main.m */,
+			);
+			path = SkiaTextDemo;
+			sourceTree = "<group>";
+		};
+		E6DFCADA22905A60005EA655 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E6DFCADB22905A6B005EA655 /* SkiaView.h */,
+				E6DFCADC22905A6B005EA655 /* SkiaView.mm */,
+				E66617DF2291016300EAFF6B /* SkiaLayer.h */,
+				E66617E02291016300EAFF6B /* SkiaLayer.mm */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6DFCAC022905928005EA655 /* SkiaTextDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6DFCAD72290592A005EA655 /* Build configuration list for PBXNativeTarget "SkiaTextDemo" */;
+			buildPhases = (
+				3FBA618781D05DBA290AFC05 /* [CP] Check Pods Manifest.lock */,
+				E6DFCABD22905928005EA655 /* Sources */,
+				E6DFCABE22905928005EA655 /* Frameworks */,
+				E6DFCABF22905928005EA655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkiaTextDemo;
+			productName = SkiaTextDemo;
+			productReference = E6DFCAC122905928005EA655 /* SkiaTextDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6DFCAB922905928005EA655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = lvpengwei;
+				TargetAttributes = {
+					E6DFCAC022905928005EA655 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E6DFCABC22905928005EA655 /* Build configuration list for PBXProject "SkiaTextDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6DFCAB822905928005EA655;
+			productRefGroup = E6DFCAC222905928005EA655 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6DFCAC022905928005EA655 /* SkiaTextDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6DFCABF22905928005EA655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6DFCAD12290592A005EA655 /* LaunchScreen.storyboard in Resources */,
+				E6DFCACE2290592A005EA655 /* Assets.xcassets in Resources */,
+				E6DFCACC22905928005EA655 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FBA618781D05DBA290AFC05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkiaTextDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6DFCABD22905928005EA655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6DFCADD22905A6B005EA655 /* SkiaView.mm in Sources */,
+				E66617E12291016300EAFF6B /* SkiaLayer.mm in Sources */,
+				E6DFCAC922905928005EA655 /* ViewController.m in Sources */,
+				E6DFCAD42290592A005EA655 /* main.m in Sources */,
+				E6DFCAC622905928005EA655 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6DFCACA22905928005EA655 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6DFCACB22905928005EA655 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6DFCACF2290592A005EA655 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6DFCAD02290592A005EA655 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6DFCAD52290592A005EA655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6DFCAD62290592A005EA655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6DFCAD82290592A005EA655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 063FF9B3F6FDDDBD62760BD3 /* Pods-SkiaTextDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3A75DREAB8;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SkiaTextDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lvpengwei.SkiaTextDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6DFCAD92290592A005EA655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97FEA1D8250B06C5C6124484 /* Pods-SkiaTextDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3A75DREAB8;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SkiaTextDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lvpengwei.SkiaTextDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6DFCABC22905928005EA655 /* Build configuration list for PBXProject "SkiaTextDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6DFCAD52290592A005EA655 /* Debug */,
+				E6DFCAD62290592A005EA655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6DFCAD72290592A005EA655 /* Build configuration list for PBXNativeTarget "SkiaTextDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6DFCAD82290592A005EA655 /* Debug */,
+				E6DFCAD92290592A005EA655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6DFCAB922905928005EA655 /* Project object */;
+}
